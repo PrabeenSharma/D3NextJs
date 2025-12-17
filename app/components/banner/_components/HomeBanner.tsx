@@ -26,7 +26,7 @@ const baseBannerSlides = [
 ];
 
 // Repeat main slider 5 times
-const repeatCount = 1;
+const repeatCount = 3;
 const bannerSlides = Array.from({ length: repeatCount }).flatMap(
   () => baseBannerSlides
 );
