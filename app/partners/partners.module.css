@@ -1,0 +1,25 @@
+.partnerBanner{ padding: 175px 0; background: #000; background-image: url(assets/images/bannerbg.jpg); background-repeat: repeat; background-position: center center;}
+
+.partnerBanner h2{ color: #fff;}
+.partnerBanner p{ color: #fff; font-size: var(--fs-20); letter-spacing: -0.08%; padding-bottom: 40px;}
+
+.productBannerImage{ padding: 55px 0 0 0;}
+
+.productTabSection{  padding: 64px 0 ; background: #fff; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top; overflow-x: hidden;}
+
+
+.discoverSection{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top; }
+.tradeSection{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: right top; }
+.swapSection{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top; }
+.earnSection{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: right top; }
+.testimonialSection{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top; }
+.testiSliderHolder{ margin: 35px 0 0 0;}
+
+
+@media screen and (max-width: 1399px) {
+ 
+}
+@media screen and (max-width: 767px) {
+.discoverSection, .tradeSection, .swapSection, .earnSection, .productTabSection{ padding: 15px 0;}
+.partnerBanner{ padding: 175px 0 60px 0;}
+}

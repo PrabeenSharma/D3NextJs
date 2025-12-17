@@ -1,0 +1,67 @@
+.aboutBanner{ padding: 175px 0; background: #000; background-image: url(assets/images/bannerbg.jpg); background-repeat: repeat; background-position: center center;}
+.aboutBanner h2{ color: #fff;}
+.aboutBanner p{ color: #fff; font-size: var(--fs-20); line-height: 1.5;}
+
+.aboutSlider{ padding: 64px 0; background: #f6f7f9 ;}
+
+.aboutSection{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top; }
+
+.teamRepeater{ display: block;}
+.teamBox{ background: #fff; padding: 0; border-radius: 4px; overflow: hidden; display: flex; height: 100%;  transition: all .5s; }
+.teamImage{ width: 50%;}
+.teamContent{ width: 50%;}
+.teamContent{ height: 100%; padding: 30px; display: flex; flex-direction: column; justify-content: space-between;}
+.teamContentTop h4{ font-size:var(--fs-32); color: rgba(0, 0, 0, 1); font-weight: 500; padding: 0 0 0 0;}
+.teamContentTop h4 span{ display: block; font-weight: 400; color: rgba(0, 0, 0, 0.64); font-size: 16px; padding-top: 10px;}
+.teamContentBottom p{font-weight: 400; color: rgba(0, 0, 0, 0.64); font-size: 16px; padding: 0; line-height: 1.5; }
+.teamImage img{ filter: grayscale(1); transition: all .5s;}
+.teamBox:hover{ box-shadow: 0px 4px 20px 0px rgba(83, 76, 76, 0.2); transition: all .5s;}
+.teamBox:hover .teamImage img{ filter: grayscale(0); transition: all .5s;}
+
+.teamImageMobile{ display: none;}
+
+.weArebackedSection{ background:#f6f7f9}
+.weArebackedInner{ background: #fff; border: 1px solid #00000012; border-radius: 8px; padding: 32px; margin: 0 0 24px 0;}
+.sponsorLogos{ display: flex; gap: 0; justify-content: space-between; align-items: center;}
+.quoteSection{ background: #fff; border: 1px solid #00000012; border-radius: 8px; padding: 20px}
+
+.quoteTop{ display: flex; justify-content: space-between; gap: 50px; }
+.quoteContent p{ padding-bottom: 0; font-size: var(--fs-20); line-height: 1.5; color: #000; letter-spacing: -0.08%;}
+.quoteIcon{ width: 64px; flex-shrink: 0;}
+
+.quoteNamaeHolder{ display: flex; gap: 10px; margin: 25px 0 0 0;}
+.quoteImage{ width: 48px; flex-shrink: 0;}
+.quoteName{ font-size: var(--fs-18); font-weight: 500; color: rgba(30, 41, 59, 1); }
+.quoteName span{ display: block; color: rgba(30, 41, 59, 1); font-size: var(--fs-14); padding-top: 2px;}
+
+
+@media screen and (min-width: 1399px) {
+.teamBoxSp .teamImage{ order: 2;}
+.teamBoxSp .teamContent{ order: 1;}
+}
+
+@media screen and (max-width: 1199px) {
+ .teamBox{ flex-direction: column;}
+ .teamImage{ width: 100%;}
+ .teamImage img{ width: 100%;}
+ .teamContent{ width: 100%;}
+ .teamImageDestop{ display: none;}
+ .teamImageMobile{ display: block;}
+
+}
+@media screen and (max-width: 767px) {
+    .quoteTop{ flex-direction: column; gap: 15px; }
+    .quoteIcon{ order: 1;}
+    .quoteContent{ order: 2;}
+    .teamContent{ padding: 15px;}
+    .aboutBanner{ padding: 175px 0 60px 0;}
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .teamBox{ flex-direction: column; }
+    .teamImage{ width: 100%;}
+    .teamImage img{ width: 100%;}
+    .teamContent{ width: 100%;}
+}

@@ -1,0 +1,24 @@
+.getintouch{ padding: 64px 0 ; background: #000; background-image: url(assets/images/getintouchbg.jpg); background-repeat: no-repeat; background-size: cover; background-position: bottom center;}
+.getInTOuchInner{ background: rgba(10, 8, 23, 0.64); padding: 64px;}
+.getInTOuchInner h6{ color: #fff;}
+.getInTOuchInner h2{ color: #fff;}
+
+.getInTOuchInner input[type=text], .getInTOuchInner input[type=email], .getInTOuchInner input[type=tel]{ width: 100%; height: 56px; background: radial-gradient(57.18% 135% at 50% -35%, rgba(248, 248, 255, 0) 0%, rgba(248, 248, 255, 0.024) 100%); border-radius: 4px; padding: 0px 12px; margin: 0 0 16px 0; border: 1px solid rgba(248, 253, 255, 0.2); color: rgba(248, 248, 255, 0.64); font-size: var(--fs-16); backdrop-filter: blur(10px); overflow: hidden; outline: none;}
+
+.getInTOuchInner textarea{ width: 100%; height: 120px; background: radial-gradient(57.18% 135% at 50% -35%, rgba(248, 248, 255, 0) 0%, rgba(248, 248, 255, 0.024) 100%); border-radius: 4px; padding: 15px 12px; margin: 0 0 16px 0; border: 1px solid rgba(248, 253, 255, 0.2); color: rgba(248, 248, 255, 0.64); font-size: var(--fs-16); backdrop-filter: blur(10px); overflow: hidden; resize: none; outline: none; }
+
+.formCheck label{  font-size: var(--fs-16);  color: rgba(248, 248, 255, 0.64);}
+.formCheck{ display: flex; gap: 15px; margin: 0 0 10px 0;}
+
+.getInTOuchInner input[type=submit]{ display:block; width: 100%; padding: 15px 20px; border-radius: 4px; font-weight: 500; font-size: var(--fs-20); background: #fff; color:#000; border: none; outline: none; cursor: pointer; font-weight: 500; font-size: var(--fs-20); margin: 25px 0 0 0;}
+.getInTOuchInner input[type=submit]:hover{ background: var(--main-color); color: #fff;}
+
+.noteSection{ text-align: center; padding: 25px 0 0 0; }
+.noteSection p{ color: rgba(248, 248, 255, 0.64); }
+
+@media screen and (max-width: 991px) {
+  .getInTOuchInner{ padding: 30px;}
+}
+@media screen and (max-width: 767px) {
+  
+}

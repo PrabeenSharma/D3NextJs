@@ -1,0 +1,15 @@
+.blogImage img{ width: 100%; } 
+
+.blogContent{ position: absolute; bottom: 0px; padding: 25px; color: #fff;}
+.blogContent a{ color: #fff; font-size: 24px }
+.blogContent small{ display: block; font-size: 14px; font-weight: 400; padding-bottom: 5px;} 
+
+.blogImage{ height: 100%;}
+.blogImage img{ height: 100%; object-fit: cover; filter: brightness(0.6);}
+
+@media screen and (max-width: 1500px) {
+  .blogContent a{ color: #fff; font-size: 20px }
+}
+@media screen and (max-width: 767px) {
+  
+}

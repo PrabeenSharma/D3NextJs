@@ -1,0 +1,11 @@
+.networkHolder{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: right top;}
+.nextworkBoxHolder{ display: flex; flex-wrap: wrap; row-gap: 48px; column-gap: 24px;}
+.nextworkBox{ background: #fff; border-radius: 4px; padding: 20px; width: calc( 50% - 12px); justify-content: center;}
+.networkImage img{ margin: 0 0 20px 0;}
+
+@media screen and (max-width: 1399px) {
+ .nextworkBoxHolder{ display: flex; flex-wrap: wrap; row-gap: 24px; column-gap: 24px;}
+}
+@media screen and (max-width: 767px) {
+ .nextworkBox{ width: 100%;}
+}

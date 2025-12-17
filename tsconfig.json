@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    /* IMPORTANT: Tell TS where to find custom types */
+    "typeRoots": ["./types", "./node_modules/@types"],
+
+    "allowJs": true,
+    "skipLibCheck": true,           // ✔ Prevents library type errors (Splide fix)
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",  // ✔ Required for Next.js 16
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+
+    /* Keep your alias working: @/... */
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+
+  "include": [
+    "next-env.d.ts",
+    "types/**/*.d.ts",      // ✔ Ensures Splide types are included
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+
+  "exclude": ["node_modules"]
+}

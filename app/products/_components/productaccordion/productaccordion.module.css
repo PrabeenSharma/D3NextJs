@@ -1,0 +1,6 @@
+.accrodianMobileImage{ display: none;}
+
+@media screen and (max-width: 991px) {
+.proTopImage{ display: none;}
+.accrodianMobileImage{ display: block; margin-top: 30px;}
+}

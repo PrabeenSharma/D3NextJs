@@ -1,0 +1,28 @@
+.partnerBanner{ padding: 190px 0 100px 0; background: #000; background-image: url(assets/images/bannerbg.jpg); background-repeat: repeat; background-position: center center;}
+
+.partnerBanner h2{ color: #fff;}
+.partnerBanner p{ color: #fff; font-size: var(--fs-20); letter-spacing: -0.08%; padding-bottom: 40px;}
+
+
+.mainContent{ padding: 64px 0;}
+.mainContent h4{ font-size: var(--fs-18); font-weight: 500; padding: 0 0 20px 0;}
+.mainContent ul{ margin: 0 0 20px 0; padding: 0 0 0 20px; }
+.mainContent ul li{ font-size: var(--fs-16);  color: var(--text-color);  padding: 0 0 5px;  font-weight: 400;  line-height: 1.44;}
+.mainContent ul li ul{ padding-top: 10px;}
+
+.mainContent ol{ margin: 0 0 20px 0; padding: 0 0 0 20px; }
+.mainContent ol li{ font-size: var(--fs-16);  color: var(--text-color);  padding: 0 0 5px;  font-weight: 400;  line-height: 1.44;}
+
+.mainContent h2{ font-size: var(--fs-28); font-weight: 500; padding: 0 0 20px 0;}
+.mainContent h3{ font-size: var(--fs-22); font-weight: 500; padding: 0 0 20px 0;}
+.mainContent p a{ color: #000; text-decoration: underline; text-underline-offset: 5px;}
+.mainContent p a:hover{ color: var(--main-color);}
+
+
+@media screen and (max-width: 1399px) {
+ 
+}
+@media screen and (max-width: 767px) {
+.discoverSection, .tradeSection, .swapSection, .earnSection, .productTabSection{ padding: 15px 0;}
+.partnerBanner{ padding: 175px 0 60px 0;}
+}

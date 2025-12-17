@@ -1,0 +1,12 @@
+.economicGraphHolder{ background: #F6F7F9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top;}
+.economicGraphHolder{ padding: 64px 0;}
+.graphWhiteBox{ background: #fff; padding: 20px; height: 100%; border-radius: 4px;}
+.graphWhiteBox h3{ padding: 20px 0 10px 0;}
+.graphWhiteBox p{ font-size: var(--fs-18); font-weight: 500; color: rgba(30, 41, 59, 1); padding: 0;}
+.graphHolder{ padding-top: 10px;}
+
+
+@media screen and (max-width: 991px) {
+    .graphWhiteBox img{ width: 100%;}
+    .graphWhiteBox{ border-bottom: 1px solid #ededed;}
+}

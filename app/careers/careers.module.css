@@ -1,0 +1,25 @@
+.careerBanner{ padding: 190px 0; background: #000; background-image: url(assets/images/bannerbg.jpg); background-repeat: repeat; background-position: center center;}
+.careerBanner h2{  color: #fff;}
+
+.productTabSection{  padding: 64px 0 ; background: #fff; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top; overflow-x: hidden;}
+.careerImageSection{  padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: right top; overflow-x: hidden;}
+
+
+.galleryGrid{ margin-bottom: 45px;}
+.imageGridTop { display: flex; gap: 12px; margin: 0 0 12px 0; }
+.imageGridBottom{  display: flex; gap: 12px;}
+.galleryGrid img{ border-radius: 4px;}
+
+.careerImageSection p{ color: rgba(0, 0, 0, 0.64); font-size: var(--fs-20); line-height: 1.5; font-weight: 400; padding-bottom: 0;}
+
+@media screen and (max-width: 1399px) {
+ 
+}
+@media screen and (max-width: 767px) {
+    .careerBanner{ padding: 180px 0 75px 0;}
+    .productTabSection, .careerImageSection{ padding: 45px 0;}
+}
+@media screen and (max-width: 500px) {
+    .imageGridTop { flex-direction: column; }
+    .imageGridBottom{  flex-direction: column;}
+}

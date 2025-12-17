@@ -1,0 +1,17 @@
+.testiholder{ display: flex; background: rgba(255, 255, 255, 1); border-radius: 4px; padding: 24px; gap: 30px; align-items: center;}
+.testiImage{ width: 200px; flex-shrink: 0;}
+.testiSmallImage{ margin: 0 0 24px 0;}
+.testiContent p{ font-size: 16px; line-height: 1.5; letter-spacing: -0.08%; font-weight: 400; color: #000;}
+
+.testiFooter h5{ font-weight: 500; font-size: 16px; color: #000;}
+.testiFooter h5 span{ display: block; font-weight: 400; font-size: 14px; padding-top: 5px;}
+
+
+
+
+@media screen and (max-width: 767px) {
+.testiholder{ flex-direction: column;}
+.testiImage{ text-align: center; width: 100%; order: 1;}
+.testiContent{ width: 100%; margin: 25px 0 0 0; order: 2;}
+
+}

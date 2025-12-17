@@ -1,0 +1,15 @@
+.domainsName{ display: flex; justify-content: center; gap: 40px; overflow-x: auto; }
+
+.missionSliderMain .splide__slide{ opacity: 1 !important ;}
+
+.domainsNameBox{ background: radial-gradient(57.18% 135% at 50% -35%, rgba(248, 248, 255, 0) 0%, rgba(248, 248, 255, 0.032) 100%); padding: 12px 55px; backdrop-filter: blur(10px) !important; overflow: hidden; color: rgba(248, 248, 255, 1); font-size: var(--fs-32); border-radius: 100px; border: 1px solid rgba(255,255,255,0.2); flex-shrink: 0; margin-bottom: 15px; text-align: center; flex-shrink: 0;}
+
+
+
+@media screen and (max-width: 991px) {
+  .missionHolder{ padding: 100px 0;}
+}
+@media screen and (max-width: 767px) {
+  .domainsName{ gap: 10px; padding: 20px; flex-wrap: wrap; justify-content: center;}
+  .domainsNameBox{ padding: 12px 35px;}
+}

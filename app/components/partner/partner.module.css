@@ -1,0 +1,18 @@
+.partnerHolder{ padding: 64px 0 ; background: #f6f7f9; background-image: url(assets/images/dot-bg.png); background-repeat: no-repeat; background-position: left top;}
+.partnerImageHolder{ display: flex; gap: 24px;}
+.partnerColumn{ width: calc( 33.33% - 12px );}
+.partnerColumn img{ border-radius: 4px;}
+.imageMargin{ margin: 0 0 24px 0;}
+
+@media screen and (max-width: 1399px) {
+ .imageMargin{ margin: 0 0 21px 0;}
+}
+@media screen and (max-width: 991px) {
+ .partnerImageHolder{  gap: 12px;}
+ .partnerColumn{ width: calc( 33.33% - 6px );}
+ .imageMargin{ margin: 0 0 12px 0;}
+}
+@media screen and (max-width: 520px) {
+    .partnerImageHolder{ flex-wrap: wrap;}
+    .partnerColumn{ width: 100%;}
+}
